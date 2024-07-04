@@ -52,7 +52,7 @@ public class BookRest {
                     dto.setIsbn(book.getIsbn());
                     dto.setPrice(book.getPrice());
 
-                    dto.setAuthorName(autor.getFirstName());
+                    dto.setAuthorName(autor.getFirstName()+autor.getLastName());
 
                     return dto;
                 })

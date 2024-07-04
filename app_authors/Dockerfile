@@ -2,6 +2,7 @@
 # docker build -t app-authors .
 
 FROM eclipse-temurin:17.0.11_9-jre-jammy
+#FROM bellsoft/liberica-runtime-container:jdk-17-glibc
 
 RUN mkdir /app
 WORKDIR /app
